@@ -11,6 +11,7 @@ public class Dao {
 			save();
 		} catch (SaveException e) {
 			throw new UpdateException("Update Exception", e);
+//			throw new AssertionError(e);
 		}
 	}
 }
