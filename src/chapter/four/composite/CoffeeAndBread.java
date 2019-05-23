@@ -1,12 +1,12 @@
 package chapter.four.composite;
 
-public class KitBreakfast implements ProductComposite {
+public class CoffeeAndBread implements ProductComposite {
 
 	private String name;
 	private ProductComposite bread;
 	private ProductComposite coffee;
 
-	public KitBreakfast(String name, ProductComposite bread, ProductComposite coffee) {
+	public CoffeeAndBread(String name, ProductComposite bread, ProductComposite coffee) {
 		this.name = name;
 		this.bread = bread;
 		this.coffee = coffee;
