@@ -2,6 +2,8 @@ package chapter.five.exception.adapter;
 
 public class UpdateException extends RuntimeException {
 
+	private static final long serialVersionUID = 1L;
+	
 	private String name;
 
 	public UpdateException(String name) {

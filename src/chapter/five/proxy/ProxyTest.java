@@ -14,8 +14,8 @@ public class ProxyTest {
 		List<Proponent> proponents = cacheDAO.listAll();
 		System.out.println(proponents);
 		
-		Proponent first = cacheDAO.findById(UM);
-		Proponent second = cacheDAO.findById(DOIS);
+		cacheDAO.findById(UM);
+		cacheDAO.findById(DOIS);
 		cacheDAO.findById(UM);
 		cacheDAO.findById(DOIS);
 		cacheDAO.remove(UM);

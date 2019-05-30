@@ -2,6 +2,8 @@ package chapter.five.exception.adapter;
 
 public class SaveException extends RuntimeException {
 
+	private static final long serialVersionUID = 1L;
+	
 	private String name;
 
 	public SaveException(String name) {
